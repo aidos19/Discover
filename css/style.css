@@ -21,6 +21,7 @@ body {
 .wrapper {
     max-width: var(--wrapWidth);
     margin: 0 auto;
+    overflow: hidden;
 }
 .container {
     max-width: var(--contWidth);
@@ -255,6 +256,13 @@ header .container {
     width: 100%;
     height: auto;
 }
+.tours-container img {
+    transition: all 1s ease-out;
+    overflow: hidden;
+}
+.tours-container img:hover {
+    transform: scale(1.1);
+} 
 .more {
     cursor: pointer;
     border: none;
