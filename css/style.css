@@ -112,8 +112,12 @@ header .container {
     font-size: 26px;
     padding: 25px 40px;
     border-radius: 6px;
+    box-shadow: 0 0 35px rgba(89, 196, 90, 0.65);
+    transition: .3s;
 }
-
+.home-link:hover {
+    box-shadow: 0 0 105px rgba(89, 196, 90, 1);
+}
 .favorable {
     padding: 100px 0 70px;
 }
