@@ -15,6 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -25,9 +26,9 @@
             <div class="container">
                 <a href="#" class="logo">Discover</a>
                 <nav>
-                    <button class="menu">Menu</button>
+                    <button class="menu menu-active">Menu</button>
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li class="menu-active"><a href="#">Home</a></li>
                         <li><a href="#">Tour</a></li>
                         <li><a href="#">Hotel</a></li>
                         <li><a href="#">Culinary</a></li>
@@ -89,7 +90,43 @@
 
     </div>
 
-
+    <section class="service">
+        <div class="service-slider">
+            <div class="slide">
+                <img src="https://picsum.photos/id/10/1200/620" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1011/1200/620" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1015/1200/620" alt="">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/1018/1200/620" alt="">
+            </div>
+        </div>
+        <div class="service-block">
+            <h2 class="section-title">Service</h2>
+            <div class="container service-container">
+                <div class="service-item">
+                    <img src="img/icon1.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum est esse ea praesentium officiis molestias eligendi voluptas aliquid omnis.</p>
+                </div>
+                <div class="service-item">
+                    <img src="img/icon2.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum est esse ea praesentium officiis molestias eligendi voluptas aliquid omnis.</p>
+                </div>
+                <div class="service-item">
+                    <img src="img/icon3.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum est esse ea praesentium officiis molestias eligendi voluptas aliquid omnis.</p>
+                </div>
+                <div class="service-item">
+                    <img src="img/icon4.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cum est esse ea praesentium officiis molestias eligendi voluptas aliquid omnis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -98,6 +135,7 @@
 
 
     <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
